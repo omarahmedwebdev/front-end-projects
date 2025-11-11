@@ -1,0 +1,398 @@
+nav{
+    background-color: rgb(45, 66, 123 , .8);
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav h1{
+    letter-spacing: 5px;
+}
+nav ul{
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 15px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;    transition: .8s;
+
+}
+nav ul li a:hover{
+    color: rgb(0, 191, 255);
+}
+.lastChild{
+    border: 2px rgb(0, 191, 255) solid;
+    padding: 10px 15px;
+    border-radius: 30px;    transition: 1s ;
+
+    font-weight: bold;
+}
+.lastChild:hover{
+    background-color: rgb(0, 191, 255);
+    border: 2px solid rgb(0, 191, 255);
+    color: white;
+}
+header{
+    background-color: rgb(45, 66, 123);
+    height: 100vh;
+}
+#text{
+    margin-top: 15%;
+    color: white;
+}
+#text h1{
+    font-weight: bolder;
+    font-size: 3rem;
+}
+#text h5{
+    margin-top: 10px;
+    opacity: .7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 1.5rem;
+}
+#text a{
+    background-color: rgb(0, 191, 255);
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: 2px solid rgb(0, 191, 255);
+    color: white;
+    margin-top: 30px;
+}
+#text a:hover{
+    background-color: rgba(0, 255, 255, 0);
+}
+#none{
+    display: none;
+}
+.col-md-2 img{
+    width: 60%;
+    margin: auto;
+    filter: saturate(0);
+    transition: .5s;
+
+}
+.col-md-2 img:hover{
+    filter: saturate(1);
+    transform: scale(1.1);
+}
+#clients{
+    height: 20vh ; padding: 3%; box-shadow: 4px 4px 4px 4px  rgba(0, 0, 0, 0.2);
+}
+.flex{
+    display: flex;
+    margin-bottom: -30px;
+}
+.true{
+    width: 20px;
+}
+.flex p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#learn{
+    border: rgb(0, 191, 255) solid 2px;
+    padding: 10px 30px;
+    color: rgb(0, 191, 255) ;
+    font-weight: bold;
+}
+#learn:hover{
+    background-color: rgb(0, 191, 255) ;
+    color: white;
+}
+#pop{
+    border-radius: 0;
+    height: 10px;
+}
+#services{
+    background-color: #e2eaf2;    
+    height: 80vh;
+}
+#team{
+    background-color: #e2eaf2;    
+    height: 100vh;
+}
+.four{
+    width: 40%;
+}
+#myrow{
+    justify-content: space-between;
+}
+#myrow .col-md-6{
+    display: flex;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 49%;
+    height: 35vh;
+    border-radius: 5px;    transition: 1s;
+
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+#myrow .col-md-6:hover{
+    transform: scale(1.05);
+}
+.four img{
+    width: 80%;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.six{
+    width: 60%;
+    padding: 5%;
+}
+#white{
+    background-color: white;
+    height: 40vh;
+    width: 23.5%;
+    padding-top: 50px;    
+    transition: .5s;
+    padding-left: 30px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.067);
+}
+#white:hover{
+    transform: scale(1.1);
+}
+#white h3{
+    font-size: 1.5rem;
+    margin-top: 15px;
+    color: rgb(0, 0, 95);
+}
+#white p{
+    font-size: small;
+}
+svg{
+    width: 25px;
+}
+#action{
+    background-image: linear-gradient(rgba(12, 12, 61, 0.906) , rgba(18, 18, 75, 0.709)) , url(../Data/pelli-clarke-and-partners-a-district-japans-tallest-tower-architecture-sq-2-1.webp);
+    background-position: center;
+    height: 50vh;
+}
+#action h4{
+    color: white;
+    padding-top: 50px ;
+}
+#action a{
+    color: white;
+    border: solid white 2px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    float: right;
+    margin-top: 80px;
+}
+#action a:hover{
+    background-color: rgb(0, 191, 255);
+    border: rgb(0, 191, 255) solid 2px ;
+}
+.price{
+    width: 32%;
+    height: 85vh;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.153);
+    border-radius: 5px;
+    padding: 3%;
+}
+.name{
+    color: rgb(45, 66, 123) ;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.number{
+    font-size: 3rem;
+    color: rgb(45, 66, 123) ;
+    font-weight: bold;
+}
+.seconed{
+    margin-top: 30px;
+}
+.seconed a{
+    border: 1px rgb(0, 191, 255) solid;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: rgb(0, 191, 255) ;
+    margin-top: 10px;
+}
+.seconed a:hover{
+    color: white;
+    background-color: rgb(0, 191, 255);
+}
+.flexBox{
+    display: flex;
+    justify-content: space-between;
+}
+.myinput{
+    display: flex;
+}
+.myinput input{
+    width: 20px;
+}
+.myinput p{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.map{
+    background-color: whitesmoke; width: 35%; box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.089);
+}
+.mapTXT{
+    padding: 20px;
+    color: rgb(45, 66, 123);
+}
+.map h6{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.felx{
+    justify-content: space-between;
+    display: flex;
+}
+.inputs{
+    padding: 20px;
+}
+.emailandname{
+    display: flex;
+    justify-content: space-between;
+}
+.thename , .email{
+    display: flex;
+    flex-direction: column;
+    width: 47.5%;
+}
+.thename input , .email input{
+    width: 100%;
+    margin-top: 10px;
+    padding: 7px;
+    border: solid 1px rgba(0, 0, 0, 0.441);
+    border-radius: 4px;
+}
+.subject{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.subject input{
+    width: 100%;
+    margin-top: 10px;
+    padding: 7px;
+    border: solid 1px rgba(0, 0, 0, 0.441);
+    border-radius: 4px;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.message textarea{
+    height: 35vh;
+    margin-top: 10px;
+}
+.inputs{
+    width: 60% ; background-color: whitesmoke; box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.08);
+}
+footer{
+    background-color: rgb(45, 66, 123);
+    padding: 5%;
+    color: white;
+    margin-top: 30px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+@media screen and (max-width:700px) {
+    *{
+        box-sizing: border-box;
+    }
+    nav ul{
+        display: none;
+    }
+    nav h1{
+        margin: auto;
+    }
+    #none{
+        display: block;
+    }
+    #block{
+        display: none;
+    }
+    header{
+        height: 130vh;
+        text-align: center;
+    }
+    #clients{
+        height: 55vh;
+    }
+    #clients img{
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    #h2{
+        margin-top: 10px;
+    }
+    #mol{
+        display: flex;
+        flex-direction: column;
+    }
+    #services{
+        height: 210vh;
+    }
+    #white{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    #white:hover{
+        transform: scale(0.9);
+    }
+    #action{
+        display: none;
+    }
+    #team{
+        height: 170vh;
+    }
+    #myrow .col-md-6{
+        width: 100%;
+    }
+    #myrow .col-md-6:hover{
+        transform: scale(0.9);
+    }
+    .price{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .flexBox{
+        flex-direction: column;
+    }
+    .felx{
+        display: flex;
+        flex-direction: column;
+    }
+    .inputs{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .map{
+        width: 100% ;
+    }
+    .emailandname{
+        flex-direction: column;
+    }
+    .thename , .email{
+        margin-top: 10px;
+        width: 100%;
+    }
+}
